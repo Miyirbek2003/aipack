@@ -269,7 +269,7 @@
     />
   </head>
   <body class="record-blog">
-    <header>
+    <header class="header123">
       <div id="call_back_modal_form_maxi">
         <!-- Само окно -->
         <button type="button" id="modal_close_maxi"><span>×</span></button
@@ -309,40 +309,41 @@
           <div class="hidden-xs"></div>
           <!-- Выводим мини корзину в мобильном варианте сайта -->
 
-          <div class="collapse navbar-collapse navbar-top-collapse">
+          <div class="collapse navbar-collapse navbar-top-collapse" style="display: flex !important; align-items: center;">
             <ul class="nav navbar-nav top_links_menu_osnovnoe">
               <li class="dropdown navbar-full-fw categories-menu">
                 <a
-                  href="javascript:void(0);"
+                  
+                  onclick="scrollId('header123')"
                   class="dropdown-toggle"
                   data-toggle="dropdown"
                   ><!--<i class="fa fa-fw fa-th-large"></i>-->Главная
                 </a>
               </li>
-              <li>
-                <a><i class="fa fa-fw fa--"></i> О компании </a>
+              <li onclick="scrollId('company')">
+                <a ><i class="fa fa-fw fa--"></i> О компании </a>
               </li>
-              <li>
-                <a href="/supplier/"><i class="fa fa-fw fa--"></i> Зачем мы</a>
+              <li onclick="scrollId('us')">
+                <a ><i class="fa fa-fw fa--"></i> Зачем мы</a>
               </li>
-              <li>
-                <a href="/supplier/"
+              <li onclick="scrollId('example')">
+                <a 
                   ><i class="fa fa-fw fa--"></i> Примеры каробки</a
                 >
               </li>
-              <li>
-                <a href="/supplier/"
+              <li onclick="scrollId('advan')">
+                <a 
                   ><i class="fa fa-fw fa--"></i> Преимущества</a
                 >
               </li>
-              <li class="dropdown" id="contacts">
+              <li class="dropdown" id="contacts" onclick="scrollId('price-f')">
                 <a
-                  href="javascript:void(0);"
-                  class="dropdown-toggle"
-                  data-toggle="dropdown"
+                  
+                  
+                  
                   ><i class="fa fa-fw fa--"></i>
                   <!--<span class="phone">+998 91 258 80 08</span>-->
-                  <span class="hidden-sm">Контакты </span
+                  <span class="hidden-sm">Заказать </span
                   >
                   <!-- <i class="fa fa-angle-down"></i
                 > -->
@@ -386,16 +387,13 @@
                 </ul>
               </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right right_block_top">
+            <ul class="nav navbar-nav navbar-right right_block_top" style="display: flex; margin-left: auto;">
               <li class="dropdown" id="phone_top">
                 <a
                   href="javascript:void(0);"
                   class="dropdown-toggle"
                   data-toggle="dropdown"
-                  ><span class="phone">+998 91 258 80 08</span>&nbsp;<i
-                    class="fa fa-angle-down"
-                  ></i
-                ></a>
+                  ><span class="phone">+998 91 258 80 08</span></a>
                 <script data-b24-form="click/4/rhsk6w" data-skip-moving="true">
                   (function (w, d, u) {
                     var s = d.createElement("script");
@@ -412,22 +410,7 @@
                 <button type="button" class="b24-web-form-popup-btn-4">
                   Заказать обратный звонок
                 </button>
-                <ul class="dropdown-menu keep-open phone_top_child">
-                  <!-- <li class="dropdown-header"></li>
-					  <li id="callback_top_2"><button type="button" data-toggle="modal" data-target="#orderModal" data-order-mode="callback" data-order-title=""><i class="fa fa-lg fa-fw fa-volume-control-phone"></i> Обратный звонок</button></li>
-					  -->
-                  <li>
-                    <span class="text_dop_phone_header"
-                      >+998 91 258 80 08<</span
-                    >
-                  </li>
-
-                  <li>
-                    <span class="text_dop_phone_header font-size-10"
-                      >розничный менеджер</span
-                    >
-                  </li>
-                </ul>
+                
               </li>
             </ul>
           </div>
@@ -532,7 +515,7 @@
             </div>
           </div>
           <div id="cmswidget-13" class="cmswidget">
-            <div class="egor-2023-content-utu">
+            <div class="egor-2023-content-utu company">
               <div class="egor-2023-block-video">
                 <div class="container egor-2023-container-video">
                   <div class="item">
@@ -743,7 +726,7 @@
               </div>
 
               <div class="egor-2023-block-quest">
-                <div class="container egor-2023-container-quest">
+                <div class="container egor-2023-container-quest us">
                   <h2>Почему стоит заказывать коробки у нас?</h2>
                   <p>
                     Мы изготавливаем упаковочные коробки по заказам уже более 16
@@ -908,8 +891,8 @@
         </div>
         <div class="divider100"></div>
 
-        <div class="wrapper_blog_info" style="background: #fafafa">
-          <div class="container">
+        <div class="wrapper_blog_info example" style="background: #fafafa">
+          <div class="container ">
             <div class="blog-info">
               <div class="blog-description">
                 <div class="col-md-12 margin-top-bottom-50">
@@ -1805,7 +1788,7 @@
           </div>
 
           <div class="egor-2023-block-advantages">
-            <div class="container egor-2023-container-advantages">
+            <div class="container egor-2023-container-advantages advan">
               <h2>Преимущества «Aipack»</h2>
               <div class="item">
                 <div>
@@ -2106,7 +2089,7 @@
             </div>
           </div>
 
-          <div class="egor-2023-price-form">
+          <div class="egor-2023-price-form price-f">
             <div class="container">
               <div class="block-img">
                 <img
@@ -3242,5 +3225,18 @@
         </div>
       </div>
     </div> -->
+    <script>
+
+      function scrollId(section){
+        
+        let element = document.querySelector(`.${section}`)
+        window.scrollTo({
+          top:element.offsetTop,
+          behavior:'smooth'
+        })
+
+      }
+
+    </script>
   </body>
 </html>
