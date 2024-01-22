@@ -1,0 +1,472 @@
+Uri: https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css
+File Name: D:\Web\templates\www.utupack.ru\npm\swiper@8\swiper-bundle.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js
+File Name: D:\Web\templates\www.utupack.ru\npm\swiper@8\swiper-bundle.min.js
+Content Type: application/javascript
+
+Uri: https://mc.yandex.ru/watch/14449387
+File Name: D:\Web\templates\www.utupack.ru\watch\14449387
+Content Type: image/gif
+
+Uri: https://panel.quizgo.ru/common?q=58418
+File Name: D:\Web\templates\www.utupack.ru\common
+Content Type: application/javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/blog/blog.blog.js
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\blog\blog.blog.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/blog/blog.color.js
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\blog\blog.color.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/blog/colorbox/css/0/colorbox.css
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\blog\colorbox\css\0\colorbox.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/javascript/blog/colorbox/jquery.colorbox.js
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\blog\colorbox\jquery.colorbox.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/blog/colorbox/lang/jquery.colorbox-ru.js
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\blog\colorbox\lang\jquery.colorbox-ru.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/bootstrap/css/bootstrap.min.css
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\bootstrap\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/javascript/bootstrap/js/bootstrap.min.js
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\bootstrap\js\bootstrap.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/common.moneymaker2.js
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\common.moneymaker2.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/fancybox.umd.js
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\fancybox.umd.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/font-awesome/css/font-awesome.min.css
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\font-awesome\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/javascript/hover-img-additional/jquery.hover-carousel.css
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\hover-img-additional\jquery.hover-carousel.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/javascript/hover-img-additional/jquery.hover-carousel.js
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\hover-img-additional\jquery.hover-carousel.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/jquery.cookie.js
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\jquery.cookie.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/jquery.spincrement.js?ver=1.0
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\jquery.spincrement.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/jquery/jquery-2.1.1.min.js
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\jquery\jquery-2.1.1.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/jquery/moneymaker2/jquery.mask.min.js
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\jquery\moneymaker2\jquery.mask.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/jquery/moneymaker2/livesearch.js
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\jquery\moneymaker2\livesearch.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/js_user.js?ver=1.23
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\js_user.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/owl.carousel.min.js?ver=1.0
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\owl.carousel.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/progroman/jquery.progroman.autocomplete.js?v=8.3-0
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\progroman\jquery.progroman.autocomplete.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/progroman/jquery.progroman.citymanager.js?v=8.3-0
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\progroman\jquery.progroman.citymanager.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/javascript/progroman/progroman.citymanager.css?v=8.3-0
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\progroman\progroman.citymanager.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/javascript/romanich.js?ver=1.02
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\javascript\romanich.js
+Content Type: application/x-javascript
+
+Uri: https://www.utupack.ru/catalog/view/theme/moneymaker2/stylesheet/bootstrap-theme-colors.css
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\theme\moneymaker2\stylesheet\bootstrap-theme-colors.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/theme/moneymaker2/stylesheet/fancybox.css
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\theme\moneymaker2\stylesheet\fancybox.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/theme/moneymaker2/stylesheet/fonts.css?ver=1.01
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\theme\moneymaker2\stylesheet\fonts.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/theme/moneymaker2/stylesheet/owl.carousel.css?ver=1.01
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\theme\moneymaker2\stylesheet\owl.carousel.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/theme/moneymaker2/stylesheet/owl.theme.default.css?ver=1.01
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\theme\moneymaker2\stylesheet\owl.theme.default.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/theme/moneymaker2/stylesheet/pannda.css?ver=1.23
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\theme\moneymaker2\stylesheet\pannda.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/theme/moneymaker2/stylesheet/proizvodstvo-kartonnyh-korobok.css?ver=1.30
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\theme\moneymaker2\stylesheet\proizvodstvo-kartonnyh-korobok.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/theme/moneymaker2/stylesheet/stylesheet.css?ver=1.18
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\theme\moneymaker2\stylesheet\stylesheet.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/theme/moneymaker2/stylesheet/stylesheet.custom.css?ver=1.01
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\theme\moneymaker2\stylesheet\stylesheet.custom.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/catalog/view/theme/moneymaker2/stylesheet/style_roman.css?ver=3.17
+File Name: D:\Web\templates\www.utupack.ru\catalog\view\theme\moneymaker2\stylesheet\style_roman.css
+Content Type: text/css
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/components/lojement-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\components\lojement-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/fefco/0200-main-m-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\fefco\0200-main-m-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/fefco/0210-main-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\fefco\0210-main-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/fefco/0300-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\fefco\0300-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/fefco/0330-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\fefco\0330-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/fefco/0426-0-main-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\fefco\0426-0-main-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/fefco/0470-main-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\fefco\0470-main-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/fefco/0471-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\fefco\0471-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/4klapana-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\4klapana-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/archive/arch-papka-main-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\archive\arch-papka-main-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/archive/arhive-box-main-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\archive\arhive-box-main-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/chemodan/che-modan-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\chemodan\che-modan-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/konvert/konvert-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\konvert\konvert-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/korob-pod-butylki/korobka-s-razdelitelyami-main-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\korob-pod-butylki\korobka-s-razdelitelyami-main-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/korob-s-ushkami/s-ushkami-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\korob-s-ushkami\s-ushkami-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/last-hvost/hvost-main-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\last-hvost\hvost-main-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/logo/logo-box-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\logo\logo-box-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/lotok-dlya-smetany/lotok-dlya-smetany-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\lotok-dlya-smetany\lotok-dlya-smetany-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/milk-box/milk-box-prewo-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\milk-box\milk-box-prewo-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/napolnitel/nakopitel-main-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\napolnitel\nakopitel-main-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/obuv/shoe-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\obuv\shoe-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/octabines/oktabine-1-m-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\octabines\oktabine-1-m-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/perf-korob/perf-korobka-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\perf-korob\perf-korobka-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/pizza/logo-pizza-main-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\pizza\logo-pizza-main-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/show-box/sb-5-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\show-box\sb-5-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/sunduk/sunduk-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\sunduk\sunduk-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/vine-box/vine-box-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\vine-box\vine-box-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/vitaya-para/korob-vitaya-para-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\vitaya-para\korob-vitaya-para-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/kartonnie-korobki/vitrinniy-lotok/vitrinlotok-300x300.png
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\kartonnie-korobki\vitrinniy-lotok\vitrinlotok-300x300.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/primenenie/technika/tech-pack-prew-300x300.jpg
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\primenenie\technika\tech-pack-prew-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://www.utupack.ru/image/cache/adaptive/catalog/production/production-box-300x300.png
+File Name: D:\Web\templates\www.utupack.ru\image\cache\adaptive\catalog\production\production-box-300x300.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/catalog/favicon.png
+File Name: D:\Web\templates\www.utupack.ru\image\catalog\favicon.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/catalog/logo-new5.png
+File Name: D:\Web\templates\www.utupack.ru\image\catalog\logo-new5.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/catalog/modal-window/mastercard.png
+File Name: D:\Web\templates\www.utupack.ru\image\catalog\modal-window\mastercard.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/catalog/modal-window/visa-pay-logo.png
+File Name: D:\Web\templates\www.utupack.ru\image\catalog\modal-window\visa-pay-logo.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/no_image.png
+File Name: D:\Web\templates\www.utupack.ru\image\no_image.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/advantages-img1.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\advantages-img1.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/advantages-img2.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\advantages-img2.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/advantages-img3.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\advantages-img3.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/advantages-img4.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\advantages-img4.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/advantages-img5.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\advantages-img5.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/advantages-img6.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\advantages-img6.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/bg-form-1.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\bg-form-1.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/bg-form-2.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\bg-form-2.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/bg-form-4.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\bg-form-4.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/block-slider-img-1.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\block-slider-img-1.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/block-slider-img-2.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\block-slider-img-2.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/block-slider-img-3.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\block-slider-img-3.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/block-slider-img-4.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\block-slider-img-4.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/icon1.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\icon1.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/icon2.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\icon2.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/icon3.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\icon3.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/icon4.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\icon4.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/icon5.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\icon5.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/icon6.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\icon6.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/icon7.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\icon7.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/icon8.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\icon8.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/info-img.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\info-img.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/info-img2.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\info-img2.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/info-img3.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\info-img3.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/manufacturer-img.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\manufacturer-img.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/number-1.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\number-1.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/number-2.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\number-2.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/number-3.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\number-3.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/number-4.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\number-4.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/pack-main-block.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\pack-main-block.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/price-img.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\price-img.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/slider-img-1.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\slider-img-1.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/slider-img-2.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\slider-img-2.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/slider-img-3.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\slider-img-3.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/slider-img-4.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\slider-img-4.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/slider-img-5.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\slider-img-5.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/step-icon-1.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\step-icon-1.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/step-icon-2.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\step-icon-2.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/step-icon-3.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\step-icon-3.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/step-icon-4.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\step-icon-4.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/step-icon-5.svg
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\step-icon-5.svg
+Content Type: image/svg+xml
+
+Uri: https://www.utupack.ru/image/proizvodstvo-kartonnyh-korobok/video-img.png
+File Name: D:\Web\templates\www.utupack.ru\image\proizvodstvo-kartonnyh-korobok\video-img.png
+Content Type: image/png
+
+Uri: https://www.utupack.ru/production/cardboard-boxes/
+File Name: D:\Web\templates\www.utupack.ru\production\cardboard-boxes\index.htm
+Content Type: text/html
+
+Uri: https://www.utupack.ru/production/cardboard-boxes/page-2
+File Name: D:\Web\templates\www.utupack.ru\production\cardboard-boxes\page-2.html
+Content Type: text/html
+
+Uri: https://www.utupack.ru/system/storage/cache/seocms.css
+File Name: D:\Web\templates\www.utupack.ru\system\storage\cache\seocms.css
+Content Type: text/css
+
