@@ -309,7 +309,9 @@
           <div class="hidden-xs"></div>
           <!-- Выводим мини корзину в мобильном варианте сайта -->
 
-          <div class="collapse navbar-collapse navbar-top-collapse" style="display: flex !important; align-items: center;">
+          <div class="collapse navbar-collapse navbar-top-collapse addit" style="@media screen and (min-width: 991px) {
+            display: flex !important; align-items: center;
+          }">
             <ul class="nav navbar-nav top_links_menu_osnovnoe">
               <li class="dropdown navbar-full-fw categories-menu">
                 <a
@@ -418,7 +420,7 @@
       </nav>
     </header>
     <div class="myclass" style="margin-top: 100px">
-      <div class="row" style="margin: 0px">
+      <div class="row" style="margin: -6px">
         <div id="content" class="col-sm-12 blog">
           <div class="container"></div>
 
