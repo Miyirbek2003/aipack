@@ -18,6 +18,47 @@
     src: url('../../../../view/theme/moneymaker2/fonts/gothampro_bold.ttf');
 }
 
+
+.drop-d {
+    position: relative;
+    display: none;
+}
+
+.drop-d.active {
+    background-color: white;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    padding: 7px 7px;
+    border-radius: 7px;
+}
+
+.drop-d a {
+    padding: 10px;
+    user-select: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+    border-radius: 7px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.drop-d a:hover {
+    background-color: rgba(228, 228, 228, 0.866);
+    color: #00549a;
+}
+
+.selected-lang {
+    padding: 7px 10px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
 #top {
     padding: 20px 0px;
     border-bottom: 1px solid #e8e8e8;
@@ -3815,6 +3856,7 @@ h3.slider {
 
 header {
     margin-top: 0px;
+    margin: 0 !important;
 }
 
 #menu2 {
@@ -3944,11 +3986,13 @@ header {
         margin-right: 100px;
     }
 }
+
 #top.navbar .collapse.navbar-collapse .nav.navbar-nav>li>a {
     padding: 7px 10px;
     cursor: pointer;
     user-select: none;
 }
+
 @media screen and (max-width:1199px) {
     #top .navbar-header {
         float: none;
@@ -4075,7 +4119,98 @@ header {
     }
 }
 
+#nav-icon4 span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+#nav-icon4 span:nth-child(2) {
+    top: 13px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+#nav-icon1,
+#nav-icon2,
+#nav-icon3,
+#nav-icon4 {
+    width: 44px;
+    height: 33px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+#nav-icon1 span,
+#nav-icon3 span,
+#nav-icon4 span {
+    display: block;
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    background: #00549a;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+#nav-icon4 span:nth-child(3) {
+    top: 26px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+#nav-icon4.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -3px;
+    left: 8px;
+}
+
+#nav-icon4.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+
+#nav-icon4.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 28px;
+    left: 6px;
+}
+
 @media screen and (max-width:991px) {
+
+    .header-inner {
+        flex-direction: column;
+    }
+
     .myclass {
         margin-top: 0 !important;
     }
@@ -4118,7 +4253,7 @@ header {
     .navbar-collapse.collapse {
         display: none !important;
     }
-    
+
     .navbar-nav {
         float: none !important;
         margin-top: 7.5px;
@@ -4449,9 +4584,11 @@ header {
     .record-blog .roman_article .record_columns .content-records .name a {
         font-size: 16px;
     }
-    header{
+
+    header {
         margin: 0 !important;
     }
+
     .record-info.record_content .blog-record-description .baner_blog .inner_fon_baner .baner_info_left img {
         display: none;
     }
@@ -4466,6 +4603,56 @@ header {
         padding-top: 40px;
     }
 
+}
+
+.hamburger {
+    display: block;
+}
+
+@media screen and (max-width:851px) {
+    .header-inner {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .inner-inner {
+        position: absolute;
+        right: 110%;
+        transition: all 0.3s;
+    }
+
+    .inner-inner.active {
+        position: fixed;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+        height: 100vh;
+        left: 0;
+        right: auto;
+        top: 0;
+        align-items: flex-start;
+    }
+
+    .second-contact {
+        position: absolute;
+        top: 50%;
+        transform: translate(-114%, -50%);
+    }
+
+    .navbar-header123 {
+        flex-direction: column;
+        background-color: white;
+        width: 70%;
+        justify-content: start;
+        right: 0;
+        height: 100%;
+        padding-top: 25px !important;
+        gap: 25px;
+    }
 }
 
 @media screen and (max-width:767px) {

@@ -2756,3 +2756,59 @@ input.button,
 .wrapper_recomend_other_article_in_article .nav.nav-tabs li a:hover {
     background: #ffcd00;
 }
+
+
+
+
+
+.addit {
+    display: flex !important;
+}
+
+.header123 {
+    background-color: white;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1001;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+ul,
+ol {
+    margin: 0 !important;
+}
+
+.navbar-header123 {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 0 !important;
+}
+.logo1233{
+    max-width: 100px;
+    width: 100%;
+}
+.navbar-header123 li {
+    cursor: pointer;
+}
+
+.navbar-header123 a {
+    font-weight: 600;
+    font-size: 15px;
+    user-select: none;
+    white-space: nowrap
+}
+
+.inner-inner{
+    display: flex;
+}

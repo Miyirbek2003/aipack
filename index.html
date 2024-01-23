@@ -282,120 +282,73 @@
       </div>
       <div id="overlay"></div>
 
-      <nav id="top" class="navbar navbar-default navbar-full navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button
-              type="button"
-              class="navbar-toggle collapsed"
-              data-toggle="collapse"
-              data-target=".navbar-top-collapse"
-            >
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div id="logo">
-              <a href="/"
-                ><img
-                  width="100"
-                  height="50"
-                  src="./image/proizvodstvo-kartonnyh-korobok/logo.jpg"
-                  title="Aipack - Гофрокартон и гофротара"
-                  alt="Aipack - Гофрокартон и гофротара"
-              /></a>
-            </div>
+      <div class="container">
+        <div class="header-inner">
+          <div class="logo1233">
+            <a href="/"
+              ><img
+                src="./image/proizvodstvo-kartonnyh-korobok/logo.jpg"
+                title="Aipack - Гофрокартон и гофротара"
+                alt="Aipack - Гофрокартон и гофротара"
+            /></a>
           </div>
-          <div class="hidden-xs"></div>
-          <!-- Выводим мини корзину в мобильном варианте сайта -->
 
-          <div class="collapse navbar-collapse navbar-top-collapse addit" style="@media screen and (min-width: 991px) {
-            display: flex !important; align-items: center;
-          }">
-            <ul class="nav navbar-nav top_links_menu_osnovnoe">
-              <li class="dropdown navbar-full-fw categories-menu">
+          <div class="inner-inner">
+            <ul class="navbar-header123">
+              <li>
                 <a
-                  
-                  onclick="scrollId('header123')"
+                  onclick="scrollId('myclass')"
                   class="dropdown-toggle"
                   data-toggle="dropdown"
                   ><!--<i class="fa fa-fw fa-th-large"></i>-->Главная
                 </a>
               </li>
               <li onclick="scrollId('company')">
-                <a ><i class="fa fa-fw fa--"></i> О компании </a>
+                <a><i class="fa fa-fw fa--"></i> О компании </a>
               </li>
               <li onclick="scrollId('us')">
-                <a ><i class="fa fa-fw fa--"></i> Зачем мы</a>
+                <a><i class="fa fa-fw fa--"></i> Зачем мы</a>
               </li>
               <li onclick="scrollId('example')">
-                <a 
-                  ><i class="fa fa-fw fa--"></i> Примеры каробки</a
-                >
+                <a><i class="fa fa-fw fa--"></i> Примеры каробки</a>
               </li>
               <li onclick="scrollId('advan')">
-                <a 
-                  ><i class="fa fa-fw fa--"></i> Преимущества</a
-                >
+                <a><i class="fa fa-fw fa--"></i> Преимущества</a>
               </li>
-              <li class="dropdown" id="contacts" onclick="scrollId('price-f')">
-                <a
-                  
-                  
-                  
-                  ><i class="fa fa-fw fa--"></i>
-                  <!--<span class="phone">+998 91 258 80 08</span>-->
-                  <span class="hidden-sm">Заказать </span
-                  >
-                  <!-- <i class="fa fa-angle-down"></i
-                > -->
-              </a>
-                <!-- <ul class="dropdown-menu keep-open">
-                  <!--<li class="dropdown-header"></li>
-              <li><button type="button" data-toggle="modal" data-target="#orderModal" data-order-mode="callback" data-order-title=""><i class="fa fa-lg fa-fw fa-volume-control-phone"></i> </button></li>-->
-                  <!--<li class="divider"></li>-->
-                  <!-- <li>
-                    <a href="/contacts/"
-                      ><i class="fa fa-lg fa-fw fa-home"></i> Адрес и схема
-                      проезда</a
-                    >
-                  </li>
-                  <li class="divider"></li>
-                  <li>
-                    <span class="text-muted"
-                      ><i class="fa fa-lg fa-fw fa--"></i> пн.-пт:
-                      9.00-18.00</span
-                    >
-                  </li>
-                  <li>
-                    <span class="text-muted"
-                      ><i class="fa fa-lg fa-fw fa--"></i>
-                      zakaz@utupack.ru</span
-                    >
-                  </li>
-                  <li class="divider"></li>
-                  <li>
-                    <a href="/services/delivery/"
-                      ><i class="fa fa-lg fa-fw fa-truck"></i> Доставка</a
-                    >
-                  </li>
-                  <li class="divider"></li>
-                  <li>
-                    <a href="/samovyivoz/"
-                      ><i class="fa fa-lg fa-fw fa-car"></i> Самовывоз</a
-                    >
-                  </li> -->
-                  <li class="divider"></li>
-                </ul>
+              <li onclick="scrollId('price-f')">
+                <a>
+                  <span class="hidden-sm">Заказать </span>
+                </a>
+              </li>
+              <li>
+                <button class="selected-lang">
+                  <img
+                    style="transform: rotate(90deg); margin-left: 5px"
+                    src="./image/proizvodstvo-kartonnyh-korobok/swiper-right.svg"
+                    alt=""
+                  />
+                </button>
+                <div class="drop-d">
+                  <a onclick="changeLanguage('ru')">Русский</a>
+                  <a onclick="changeLanguage('uz')">O'zbekcha</a>
+                  <a onclick="changeLanguage('en')">English</a>
+                  <a onclick="changeLanguage('qr')">Qaraqalpaqsha</a>
+                </div>
               </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right right_block_top" style="display: flex; margin-left: auto;">
+            <ul
+              class="second-contact nav navbar-nav navbar-right right_block_top"
+              style="display: flex; margin-left: auto !important"
+            >
               <li class="dropdown" id="phone_top">
                 <a
                   href="javascript:void(0);"
                   class="dropdown-toggle"
                   data-toggle="dropdown"
-                  ><span class="phone">+998 91 258 80 08</span></a>
+                  ><span class="phone" style="white-space: nowrap"
+                    >+998 91 258 80 08</span
+                  ></a
+                >
                 <script data-b24-form="click/4/rhsk6w" data-skip-moving="true">
                   (function (w, d, u) {
                     var s = d.createElement("script");
@@ -412,26 +365,30 @@
                 <button type="button" class="b24-web-form-popup-btn-4">
                   Заказать обратный звонок
                 </button>
-                
               </li>
             </ul>
           </div>
+
+          <div class="hamburger" id="nav-icon4">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-      </nav>
+      </div>
     </header>
-    <div class="myclass" style="margin-top: 100px">
+    <div class="myclass">
       <div class="row" style="margin: 0px">
         <div id="content" class="col-sm-12 blog">
           <div class="container"></div>
-
           <div class="seocmspro_content blog-content seocmspro_content_main">
             <div id="cmswidget-7" class="cmswidget">
               <div class="egor-2023-content-utu breadcrumbs_none_landing">
                 <div class="egor-2023-main-blovk">
                   <div class="container egor-2023-container-main">
                     <div class="item">
-                      <h2>
-                        Изготовим картонные коробки на заказ от
+                      <h2 data-i18n="welcome_message">
+                        <!-- Изготовим картонные коробки на заказ от -->
                         <span>3-х дней</span>
                       </h2>
 
@@ -894,7 +851,7 @@
         <div class="divider100"></div>
 
         <div class="wrapper_blog_info example" style="background: #fafafa">
-          <div class="container ">
+          <div class="container">
             <div class="blog-info">
               <div class="blog-description">
                 <div class="col-md-12 margin-top-bottom-50">
@@ -1741,10 +1698,10 @@
                 </p>
                 <p>
                   Мы изготавливаем коробки на заказ в Нукусе, но доставка
-                  готовой продукции проводится по всей Узбекистан Заводы компании
-                  «Aipack» расположены в подмосковном Клину и в деревне Красная
-                  Горка под Мытищами. Отгрузка готовой продукции проводится со
-                  склада в Красной Горке.
+                  готовой продукции проводится по всей Узбекистан Заводы
+                  компании «Aipack» расположены в подмосковном Клину и в деревне
+                  Красная Горка под Мытищами. Отгрузка готовой продукции
+                  проводится со склада в Красной Горке.
                 </p>
               </div>
               <div class="item">
@@ -1819,13 +1776,14 @@
                     />
                   </div>
 
-                  <p>Доставка по всей Узбекистан/p>
+                  <p>Доставка по всей Узбекистан/p></p>
                 </div>
+
                 <p>
                   Мы отправим коробки из картона в любую точку страны. Доставка
-                  в пределах Республики Каракалпакстан области проводится на собственном
-                  транспорте. Отправка заказов в регионы выполняется с помощью
-                  транспортных компаний.
+                  в пределах Республики Каракалпакстан области проводится на
+                  собственном транспорте. Отправка заказов в регионы выполняется
+                  с помощью транспортных компаний.
                 </p>
               </div>
               <div class="item">
@@ -3228,17 +3186,79 @@
       </div>
     </div> -->
     <script>
-
-      function scrollId(section){
-        
-        let element = document.querySelector(`.${section}`)
+      function scrollId(section) {
+        let element = document.querySelector(`.${section}`);
         window.scrollTo({
-          top:element.offsetTop,
-          behavior:'smooth'
-        })
-
+          top: element.offsetTop - 80,
+          behavior: "smooth",
+        });
       }
+    </script>
+    <script>
+      function updateContent(langData) {
+        document.querySelectorAll("[data-i18n]").forEach((element) => {
+          const key = element.getAttribute("data-i18n");
+          element.textContent = langData[key];
+        });
+        let selected_btn = document.querySelector(".selected-lang");
+        selected_btn.addEventListener("click", () => {
+          let drop_d = document.querySelector(".drop-d");
+          if (drop_d.classList.contains("active")) {
+            drop_d.classList.remove("active");
+            console.log("aa");
+          } else {
+            drop_d.classList.add("active");
+            console.log("bb");
+          }
+        });
+        selected_btn.textContent =
+          localStorage.getItem("language") == `ru`
+            ? `Русский`
+            : localStorage.getItem("language") == "uz"
+            ? `O'zbekcha`
+            : localStorage.getItem("language") == "en"
+            ? `English`
+            : localStorage.getItem("language") == "qr" && `Qaraqalpaqsha`;
+      }
+      function setLanguagePreference(lang) {
+        localStorage.setItem("language", lang);
+        location.reload();
+      }
+      async function fetchLanguageData(lang) {
+        const response = await fetch(`languages/${lang}.json`);
+        return response.json();
+      }
+      async function changeLanguage(lang) {
+        await setLanguagePreference(lang);
+        const langData = await fetchLanguageData(lang);
+        let drop_d = document.querySelector(".drop-d");
 
+        updateContent(langData);
+      }
+      window.addEventListener("DOMContentLoaded", async () => {
+        const userPreferredLanguage = localStorage.getItem("language") || "en";
+        const langData = await fetchLanguageData(userPreferredLanguage);
+        updateContent(langData);
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4").click(function () {
+          $(this).toggleClass("open");
+          let header_dis = document.querySelector(".inner-inner");
+
+          header_dis.classList.toggle("active");
+        });
+      });
+    </script>
+    <script>
+      let header_dis = document.querySelector(".inner-inner");
+
+      header_dis.addEventListener("click", (e) => {
+        e.stopPropagation();
+        header_dis.classList.remove("active");
+        $("#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4").toggleClass("open");
+      });
     </script>
   </body>
 </html>
