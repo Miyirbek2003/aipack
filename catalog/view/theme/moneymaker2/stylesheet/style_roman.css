@@ -4128,7 +4128,7 @@ header {
 }
 
 #nav-icon4 span:nth-child(2) {
-    top: 13px;
+    top: 10px;
     -webkit-transform-origin: left center;
     -moz-transform-origin: left center;
     -o-transform-origin: left center;
@@ -4139,8 +4139,8 @@ header {
 #nav-icon2,
 #nav-icon3,
 #nav-icon4 {
-    width: 44px;
-    height: 33px;
+    width: 30px;
+    height: 28px;
     position: relative;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -4158,7 +4158,7 @@ header {
 #nav-icon4 span {
     display: block;
     position: absolute;
-    height: 6px;
+    height: 4px;
     width: 100%;
     background: #00549a;
     border-radius: 9px;
@@ -4175,7 +4175,7 @@ header {
 }
 
 #nav-icon4 span:nth-child(3) {
-    top: 26px;
+    top: 20px;
     -webkit-transform-origin: left center;
     -moz-transform-origin: left center;
     -o-transform-origin: left center;
@@ -4201,8 +4201,8 @@ header {
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    top: 28px;
-    left: 6px;
+    top: 18px;
+    left: 7px;
 }
 
 @media screen and (max-width:991px) {
@@ -4606,7 +4606,7 @@ header {
 }
 
 .hamburger {
-    display: block;
+    display: none;
 }
 
 @media screen and (max-width:851px) {
