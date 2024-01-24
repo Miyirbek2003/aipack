@@ -2794,10 +2794,12 @@ ol {
     justify-content: space-between;
     padding: 0 !important;
 }
-.logo1233{
+
+.logo1233 {
     max-width: 100px;
     width: 100%;
 }
+
 .navbar-header123 li {
     cursor: pointer;
 }
@@ -2809,6 +2811,8 @@ ol {
     white-space: nowrap
 }
 
-.inner-inner{
+.inner-inner {
     display: flex;
+
+
 }

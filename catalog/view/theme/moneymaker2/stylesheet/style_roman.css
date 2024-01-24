@@ -4117,6 +4117,22 @@ header {
     #content .col-md-6:nth-child(2n+1) {
         clear: none;
     }
+
+    .header-inner {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .inner-inner {
+        display: flex;
+        order: 3;
+
+    }
+    .navbar-header123{
+        justify-content: space-between;
+        width: 100%;
+    }
 }
 
 #nav-icon4 span:nth-child(1) {
@@ -4208,7 +4224,7 @@ header {
 @media screen and (max-width:991px) {
 
     .header-inner {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .myclass {
@@ -4603,6 +4619,8 @@ header {
         padding-top: 40px;
     }
 
+
+
 }
 
 .hamburger {
@@ -4610,10 +4628,9 @@ header {
 }
 
 @media screen and (max-width:851px) {
-    .header-inner {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+
+
+
 
     .hamburger {
         display: block;
@@ -4623,6 +4640,7 @@ header {
         position: absolute;
         right: 110%;
         transition: all 0.3s;
+
     }
 
     .inner-inner.active {
@@ -4639,6 +4657,7 @@ header {
 
     .second-contact {
         position: absolute;
+        display: none !important;
         top: 50%;
         transform: translate(-114%, -50%);
     }
