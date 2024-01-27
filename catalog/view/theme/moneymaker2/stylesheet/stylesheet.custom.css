@@ -171,6 +171,7 @@ footer {
     background-color: #202020;
     border-top: 2px solid #777777;
     color: #777777;
+    margin: 0 !important;
 }
 
 footer .bottom .col-sm-3 {
