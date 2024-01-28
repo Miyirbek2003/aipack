@@ -2607,7 +2607,7 @@
             console.log(disc); //Выводим значение скидки в консоли для проверки
           } else {
             jQuery("#disc-wid").text(3); //Устанавливаем значение максимальной скидки
-            console.log("Максимальная скидка"); //Выводим в консоли соответствующее сообщение
+
             clearInterval(timer); //Останаливаем функцию, которая увеличивает значение скидки
             return false;
           }
@@ -2625,7 +2625,6 @@
             jQuery("#disc-wid").text(disc.toFixed(2));
             console.log(disc);
           } else {
-            console.log("Максимальная скидка");
             clearInterval(timer);
             jQuery("#disc-wid").text(3);
             return false;
@@ -2730,7 +2729,7 @@
         }
         var chatId = "@aipack_call_centre";
         var telegramBotToken = "6751439574:AAEbk3mlnT0h3v0BpBAuL4lP3OR3nR1ENwQ";
-        var post_data = `Клиент : ${name}\nТелефон номер : ${phone} \nДата заявки : ${formattedDateTime} `;
+        var post_data = `👤 Клиент :  ${name}\n\n📞 Телефон :  ${phone} \n\n📆 Дата заявки :  ${formattedDateTime} `;
         var messagePayload = {
           chat_id: chatId,
           text: post_data,
