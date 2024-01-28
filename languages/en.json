@@ -127,5 +127,9 @@
     "pay": "We accept cards",
     "pay1": "Pay for goods from our online store with a card.",
     "time": "Opening hours: Mon-Fri, from 9 to 18",
-    "del": "Delivery in Nukus"
+    "del": "Delivery in Nukus",
+    "ordercall": "Order a free call",
+    "imiya": "Name",
+    "tel": "Telephone",
+    "consult": "Order a consultation"
 }

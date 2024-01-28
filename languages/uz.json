@@ -127,5 +127,9 @@
     "pay": "Biz kartalarni qabul qilamiz",
     "pay1": "Bizning onlayn-do'konimizdagi tovarlarni karta bilan to'lang.",
     "time": "Ish vaqti: dushanba-juma, 9 dan 18 gacha",
-    "del": "Nukusda yetkazib berish"
+    "del": "Nukusda yetkazib berish",
+    "ordercall": "Bepul qo'ng'iroqqa buyurtma berish",
+    "imiya": "Ism",
+    "tel": "Telefon",
+    "consult": "Maslahatga buyurtma berish"
 }
