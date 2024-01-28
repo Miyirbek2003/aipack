@@ -1742,7 +1742,6 @@
       <div class="bottom">
         <div class="container">
           <div class="row">
-           
             <div class="col-sm-3">
               Сохраняя самое ценное...<br />
               Aipack &copy; 2006 &ndash; 2024
@@ -1773,7 +1772,7 @@
                   <!---->
                 </div>
                 <div class="b24-form-content b24-form-padding-side">
-                  <form method="post" novalidate="novalidate">
+                  <form id="my_form" novalidate="novalidate">
                     <!---->
                     <div>
                       <div
@@ -1790,6 +1789,8 @@
                               </div>
                               <input
                                 name="name"
+                                id="name"
+                                required
                                 autocomplete="given-name"
                                 type="string"
                                 class="b24-form-control"
@@ -1825,7 +1826,9 @@
                               <input
                                 name="phone"
                                 autocomplete="tel"
-                                type="tel"
+                                id="phone"
+                                type="number"
+                                required
                                 class="b24-form-control b24-form-control-not-empty"
                               />
 
@@ -1849,7 +1852,7 @@
                       <!---->
                       <!---->
                       <div class="b24-form-btn-block">
-                        <button type="button" class="btn-own">
+                        <button type="submit" class="btn-own">
                           Заказать консультацию
                         </button>
                       </div>
@@ -2689,6 +2692,78 @@
         });
       }
     </script>
+
+    <script>
+      $("#my_form").submit(async function (e) {
+        e.preventDefault();
+        let name = document.getElementById("name").value;
+        let phone = document.getElementById("phone").value;
+        const date = new Date();
+        // Create a new Date object
+        var currentDate = new Date();
+
+        // Get the current date and time
+        var currentYear = currentDate.getFullYear();
+        var currentMonth = currentDate.getMonth() + 1; // Months are zero-based, so add 1
+        var currentDay = currentDate.getDate();
+        var currentHour = currentDate.getHours();
+        var currentMinute = currentDate.getMinutes();
+        var currentSecond = currentDate.getSeconds();
+
+        // Format the date and time as a string
+        var formattedDateTime =
+          currentYear +
+          "-" +
+          addLeadingZero(currentMonth) +
+          "-" +
+          addLeadingZero(currentDay) +
+          " " +
+          addLeadingZero(currentHour) +
+          ":" +
+          addLeadingZero(currentMinute) +
+          ":" +
+          addLeadingZero(currentSecond);
+
+        // Helper function to add leading zero for single-digit months, days, hours, minutes, and seconds
+        function addLeadingZero(number) {
+          return number < 10 ? "0" + number : number;
+        }
+        var chatId = "@aipack_call_centre";
+        var telegramBotToken = "6751439574:AAEbk3mlnT0h3v0BpBAuL4lP3OR3nR1ENwQ";
+        var post_data = `Клиент : ${name}\nТелефон номер : ${phone} \nДата заявки : ${formattedDateTime} `;
+        var messagePayload = {
+          chat_id: chatId,
+          text: post_data,
+        };
+
+        //  https://api.telegram.org/bot6751439574:AAEbk3mlnT0h3v0BpBAuL4lP3OR3nR1ENwQ/sendMessage?chat_id=@aipack_call_centre&text=Nomer: +998910953917 <br/> Name :AAA
+        var formData = new URLSearchParams();
+        for (const [key, value] of Object.entries(messagePayload)) {
+          formData.append(key, value);
+        }
+        //
+        if (name && phone) {
+          fetch(`https://api.telegram.org/bot${telegramBotToken}/sendMessage`, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: formData,
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              let modal = document
+                .querySelector(".modal-own")
+                .classList.remove("open");
+              document.body.style.overflow = "auto";
+              var form = document.getElementById("my_form");
+              form.reset();
+              alert("Заявка отпралено");
+            })
+            .catch((error) => console.error("Error:", error));
+        }
+      });
+    </script>
     <script>
       function updateContent(langData) {
         document.querySelectorAll("[data-i18n]").forEach((element) => {
@@ -2719,7 +2794,7 @@
       }
       async function fetchLanguageData(lang) {
         const response = await fetch(`languages/${lang}.json`);
-        console.log(response, "AAAA");
+
         return response.json();
       }
       async function changeLanguage(lang) {
