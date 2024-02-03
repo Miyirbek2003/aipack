@@ -2616,7 +2616,6 @@
               "max-age": 86400,
             }); //Устанавливаем cookie, secure - соединение https, max-age - как долго будут жить cookie, тут 24 часа
             jQuery("#disc-wid").text(disc.toFixed(2)); // Выводим значение скидки
-            console.log(disc); //Выводим значение скидки в консоли для проверки
           } else {
             jQuery("#disc-wid").text(3); //Устанавливаем значение максимальной скидки
 
@@ -2701,6 +2700,10 @@
           top: element.offsetTop - 80,
           behavior: "smooth",
         });
+        let inner = document.querySelector(".inner-inner");
+        let hamburger = document.querySelector(".hamburger");
+        hamburger.classList.remove('open')
+        inner.classList.remove("active");
       }
     </script>
 
@@ -2743,7 +2746,7 @@
         var telegramBotToken = "6751439574:AAEbk3mlnT0h3v0BpBAuL4lP3OR3nR1ENwQ";
         var post_data = `👤 Клиент :  ${name}\n\n📞 Телефон :  ${phone} \n\n📆 Дата заявки :  ${formattedDateTime} `;
         var messagePayload = {
-          chat_id: chatId,
+          chat_id: -1002117454356,
           text: post_data,
         };
 
