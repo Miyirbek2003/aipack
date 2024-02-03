@@ -2004,6 +2004,9 @@ media csss
 		max-width: 300px;
 		height: 170px;
 	}
+	.item a {
+		max-width: 100% !important;
+	}
 	.egor-2023-content-utu .egor-2023-block-video {
 		padding-bottom: 30px;
 	}
