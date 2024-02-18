@@ -2568,3 +2568,17 @@ media csss
 		padding-right: 0;
 	}
 }
+
+
+
+@media screen and (max-width:1000px) {
+	.blog-cards {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (max-width:500px) {
+	.blog-cards {
+		grid-template-columns: 1fr;
+	}
+}

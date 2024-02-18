@@ -4129,7 +4129,8 @@ header {
         order: 3;
 
     }
-    .navbar-header123{
+
+    .navbar-header123 {
         justify-content: space-between;
         width: 100%;
     }
@@ -4167,6 +4168,10 @@ header {
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
+}
+
+.hamburger2 span {
+    background-color: black !important;
 }
 
 #nav-icon1 span,
@@ -4627,13 +4632,51 @@ header {
     display: none;
 }
 
+.hamburger2 {
+    display: none;
+
+}
+
+.navbar-info {
+    height: 100%;
+    width: 70%;
+    z-index: 999;
+    padding-top: 50px;
+}
+
 @media screen and (max-width:851px) {
 
 
 
+    .navbar-info {
+        position: absolute;
+        left: -130%;
+        transition: 0.3s all;
+    }
+
+    .navbar-info.active {
+        position: fixed;
+        left: 0%;
+        height: 100%;
+        width: 70%;
+        z-index: 999;
+        padding-top: 50px;
+    }
+
+    .main-info {
+        padding-left: 50px;
+    }
 
     .hamburger {
         display: block;
+    }
+
+    .hamburger2 {
+        z-index: 1000;
+        display: block;
+        position: fixed !important;
+        left: 10px;
+        top: 75px;
     }
 
     .inner-inner {
@@ -4653,6 +4696,7 @@ header {
         right: auto;
         top: 0;
         align-items: flex-start;
+        
     }
 
     .second-contact {

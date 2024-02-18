@@ -301,26 +301,26 @@
             <ul class="navbar-header123">
               <li>
                 <a
-                  onclick="scrollId('myclass')"
+                  onclick="go_back()"
                   class="dropdown-toggle"
                   data-toggle="dropdown"
                   data-i18n="glavnaya"
                   ><!--<i class="fa fa-fw fa-th-large"></i>-->Главная
                 </a>
               </li>
-              <li onclick="scrollId('company')">
+              <li onclick="go_back()">
                 <a data-i18n="okompaniy"> О компании </a>
               </li>
-              <li onclick="scrollId('us')">
+              <li onclick="go_back()">
                 <a data-i18n="zachemmi"> Зачем мы</a>
               </li>
-              <li onclick="scrollId('example')">
+              <li onclick="go_back()">
                 <a data-i18n="primeri"> Примеры каробки</a>
               </li>
-              <li onclick="scrollId('advan')">
+              <li onclick="go_back()">
                 <a data-i18n="preymushestva">Преимущества</a>
               </li>
-              <li onclick="scrollId('blog')">
+              <li onclick="go_back()">
                 <a data-i18n="blog">Блог</a>
               </li>
               <li>
@@ -366,6 +366,11 @@
     <section class="info-section">
       <div class="navbar-info">
         <ul class="navbar-inner"></ul>
+      </div>
+      <div class="hamburger2" id="nav-icon4">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
       <div class="main-info">
         <h2 class="main-title"></h2>
@@ -1534,11 +1539,18 @@
     </script>
     <script>
       $(document).ready(function () {
-        $("#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4").click(function () {
+        $(".hamburger").click(function () {
           $(this).toggleClass("open");
           let header_dis = document.querySelector(".inner-inner");
 
           header_dis.classList.toggle("active");
+        });
+      });
+      $(document).ready(function () {
+        $(".hamburger2").click(function () {
+          $(this).toggleClass("open");
+          let navbar = document.querySelector(".navbar-info");
+          navbar.classList.toggle("active");
         });
       });
     </script>
@@ -1619,13 +1631,17 @@
           </li>
           `;
         });
+        let blogHTML = blog.join("");
         document
           .querySelector(".navbar-inner")
-          .insertAdjacentHTML("afterbegin", blog);
+          .insertAdjacentHTML("afterbegin", blogHTML);
 
         function sess(event) {
           localStorage.setItem("slug", event.target.id);
         }
+      }
+      function go_back() {
+        window.history.back()
       }
     </script>
   </body>

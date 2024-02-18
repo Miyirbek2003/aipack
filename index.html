@@ -310,15 +310,16 @@
               <li onclick="scrollId('us')">
                 <a data-i18n="zachemmi"> Зачем мы</a>
               </li>
+              <li onclick="scrollId('blog1')">
+                <a data-i18n="blog">Блог</a>
+              </li>
               <li onclick="scrollId('example')">
                 <a data-i18n="primeri"> Примеры каробки</a>
               </li>
               <li onclick="scrollId('advan')">
                 <a data-i18n="preymushestva">Преимущества</a>
               </li>
-              <li onclick="scrollId('blog')">
-                <a data-i18n="blog">Блог</a>
-              </li>
+
               <li>
                 <button class="selected-lang">
                   <img
@@ -746,7 +747,7 @@
             </div>
           </div>
         </div>
-        <section class="blog-section">
+        <section class="blog-section blog1">
           <div class="container">
             <div
               class=".egor-2023-content-utu .egor-2023-block-quest .egor-2023-container-quest"
@@ -2834,31 +2835,47 @@
         let data = data1.items;
 
         let blog = data.map((blog1) => {
-          return `
-          <div class="blog">
-                <a class="ascp-list-title" href='blog-in.html' id='${
-                  blog1.translations.filter(
-                    (el) => el.locale == localStorage.getItem("language")
-                  )[0].slug
-                }'  
-                onclick="sess(event)" >
-                 ${
-                   blog1.translations.filter(
-                     (el) => el.locale == localStorage.getItem("language")
-                   )[0].title
-                 }
-                  <p>12.12.2024</p>
-                </a>
-              </div>
-          `;
+          console.log(blog1);
+
+          const dateObject = new Date(blog1.created_at);
+
+          const formattedDate = `${(dateObject.getMonth() + 1)
+            .toString()
+            .padStart(2, "0")}-${dateObject
+            .getDate()
+            .toString()
+            .padStart(2, "0")}-${dateObject.getFullYear()}`.replace(/-/g, ".");
+
+          return `<div class="blog">
+                      <a class="ascp-list-title" href="blog-in.html" id="${
+                        blog1.translations.filter(
+                          (el) => el.locale == localStorage.getItem("language")
+                        )[0].slug
+                      }"
+                      onclick="sess(event)" >
+                       ${
+                         blog1.translations.filter(
+                           (el) => el.locale == localStorage.getItem("language")
+                         )[0].title
+                       }
+                        <p class='date-time'>
+                          ${formattedDate}
+                        </p>
+                      </a>
+                    </div>
+                `;
         });
+        let blogHTML = blog.join("");
+
         document
           .querySelector(".blog-cards")
-          .insertAdjacentHTML("afterbegin", blog);
+          .insertAdjacentHTML("afterbegin", blogHTML);
       }
       function sess(event) {
         localStorage.setItem("slug", event.target.id);
       }
+
+      // Output: 2024.02.18
       window.addEventListener("DOMContentLoaded", () => {
         fetchBlog();
       });

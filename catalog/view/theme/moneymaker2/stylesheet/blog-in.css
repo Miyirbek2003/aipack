@@ -68,3 +68,9 @@ footer {
     background-color: rgba(201, 206, 219, 0.5);
     font-weight: 600;
 }
+
+@media screen and (max-width:500px) {
+    .main-info>h2{
+        font-size: 23px;
+    }
+}
