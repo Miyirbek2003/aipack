@@ -365,6 +365,8 @@
     </header>
     <section class="info-section">
       <div class="navbar-info">
+        <div class="loader1"></div>
+
         <ul class="navbar-inner"></ul>
       </div>
       <div class="hamburger2" id="nav-icon4">
@@ -373,6 +375,8 @@
         <span></span>
       </div>
       <div class="main-info">
+        <div class="loader2"></div>
+
         <h2 class="main-title"></h2>
         <div class="main-body"></div>
       </div>
@@ -1573,6 +1577,8 @@
 
     <script>
       async function fetchBlog() {
+        document.querySelector(".loader1").style.display = "block";
+        document.querySelector(".loader2").style.display = "block";
         let slug = localStorage.getItem("slug");
         let response = await fetch(`http://127.0.0.1:8000/api/blogs/${slug}`);
         let data1 = await response.json();
@@ -1591,6 +1597,8 @@
           data.translations.filter(
             (lang) => localStorage.getItem("language") == lang.locale
           )[0].title;
+        document.querySelector(".loader1").style.display = "none";
+        document.querySelector(".loader2").style.display = "none";
       }
       window.addEventListener("DOMContentLoaded", () => {
         fetchBlogAll();
@@ -1603,10 +1611,13 @@
       }
 
       async function fetchBlogAll() {
+        document.querySelector(".loader1").style.display = "block";
+        document.querySelector(".loader2").style.display = "block";
+
         let response = await fetch("http://127.0.0.1:8000/api/blogs");
         let data1 = await response.json();
         let data = data1.items;
-        console.log(data);
+        
         let blog = data.map((blog1) => {
           return `
           <li 
@@ -1639,9 +1650,11 @@
         function sess(event) {
           localStorage.setItem("slug", event.target.id);
         }
+        document.querySelector(".loader1").style.display = "none";
+        document.querySelector(".loader2").style.display = "none";
       }
       function go_back() {
-        window.history.back()
+        window.history.back();
       }
     </script>
   </body>
