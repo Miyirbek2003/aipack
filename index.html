@@ -2730,7 +2730,7 @@
         }
         //
         if (name && phone) {
-          fetch(`http://127.0.0.1:8000/api/order`, {
+          fetch(`https://admin.aipack.uz/api/order`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -2840,7 +2840,7 @@
 
     <script>
       async function fetchBlog() {
-        let response = await fetch("http://127.0.0.1:8000/api/blogs");
+        let response = await fetch("https://admin.aipack.uz/api/blogs");
         let data1 = await response.json();
         let data = data1.items;
 
