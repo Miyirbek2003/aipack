@@ -1580,7 +1580,7 @@
         document.querySelector(".loader1").style.display = "block";
         document.querySelector(".loader2").style.display = "block";
         let slug = localStorage.getItem("slug");
-        let response = await fetch(`http://127.0.0.1:8000/api/blogs/${slug}`);
+        let response = await fetch(`https://admin.aipack.uz/api/blogs/${slug}`);
         let data1 = await response.json();
         var data = data1.item;
         function createMarkup() {
@@ -1614,7 +1614,7 @@
         document.querySelector(".loader1").style.display = "block";
         document.querySelector(".loader2").style.display = "block";
 
-        let response = await fetch("http://127.0.0.1:8000/api/blogs");
+        let response = await fetch("https://admin.aipack.uz/api/blogs");
         let data1 = await response.json();
         let data = data1.items;
         
